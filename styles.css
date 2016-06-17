@@ -7,6 +7,7 @@
   box-shadow: 0 0 1em #92cdd2;
   padding: 15px;
   background-color: #92cdd2;
+  margin: 0 auto;
 }
 
 /*Style for the title of the card*/
@@ -19,7 +20,7 @@
 }
 
 /*Style for the image of the card*/
-.photo {
+.card-img {
   display: block;
   border-radius: 40px;
   width: 300px;
@@ -40,16 +41,13 @@
 
 .items {
   font-style: italic;
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
 }
 
 .label {
   font-style: normal;
   font-weight: bold;
-}
-
-ul {
-  list-style-type: none;
-  list-style-position: inside;
-  margin: 0;
-  padding: 0;
 }
